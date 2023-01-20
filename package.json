@@ -1,0 +1,22 @@
+{
+  "name": "hospital",
+  "version": "1.0.0",
+  "description": "doctor appointment",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "start:prod": "NODE_ENV=production  nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "author": "lac-doh-wilson tchofor",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "morgan": "^1.10.0",
+    "prettier": "^2.8.3",
+    "validator": "^13.7.0"
+  }
+}
